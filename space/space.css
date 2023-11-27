@@ -1,0 +1,194 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.nav1{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: transparent;
+    position: absolute;
+   
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+ul{
+    color: white;
+    display: flex;
+    font-size: small;
+    list-style: none;
+    gap: 20px;
+    font-family: D-DIN-Bold, Arial, Verdana, sans-serif;
+}
+.details{
+    color: white;
+}
+
+.imgicon{
+    width: 200px;
+    height: 40px;
+}
+li:hover{
+    cursor: pointer;
+    border-bottom: 1px solid white;
+}
+.nav1img{
+    width: 100%;
+    height: 800px;
+    background: url("https://wallpapers.com/images/featured/spacex-obi5wntvz2881e6i.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.nav2{
+    width: 100%;
+    height: 600px;
+    background: url("https://wp.technologyreview.com/wp-content/uploads/2021/04/for_press_release-2.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.nav3{
+    width: 100%;
+    height: 800px;
+    background: url("https://free4kwallpapers.com/uploads/originals/2020/10/23/space-launch-cape-canaveral-wallpaper.jpg");
+    background-size: cover;
+    background-position: center;
+}
+h2{
+    position: absolute;
+    top: 450px;
+    margin-left: 100px;
+    color: white;
+    font-weight: bold;
+}
+h3{
+    position: absolute;
+    top: 400px;
+    margin-left: 100px;
+    color: white;
+    font-weight: bold;
+}
+button{
+    position: absolute;
+    top: 550px;
+    margin-left: 100px;
+    /* color: black; */
+    font-weight: bold;
+    width: 155px;
+    height: 30px;
+    color: white;
+    background-color: transparent;
+   
+    /* border: 5px; */
+    background-color: none;
+    border: 1px solid white;
+
+}
+button:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+.nav2h3{
+    position: absolute;
+    top: 1000px;
+    margin-left: 100px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: D-DIN-Medium, Arial, Verdana, sans-serif;
+}
+.nav2h2{
+    position: absolute;
+    top: 1050px;
+    margin-left: 100px;
+    color: white;
+    font-weight: bold;
+    font-size: 48px;
+}
+.nav2button{
+    position: absolute;
+    top: 1110px;
+    margin-left: 100px;
+    /* color: black; */
+    font-weight: bold;
+    width: 155px;
+    height: 30px;
+    color: white;
+    background-color: transparent;
+    /* background-color: rgb(8, 8, 60); */
+    /* border-radius: 20px; */
+    border: 1px solid white;
+    cursor: pointer;
+}
+.nav3h3{
+    position: absolute;
+    top: 1600px;
+    margin-left: 100px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: D-DIN-Medium, Arial, Verdana, sans-serif;
+}
+.nav3h2{
+    position: absolute;
+    top: 1650px;
+    margin-left: 100px;
+    color: white;
+    font-weight: bold;
+    font-size: 48px;
+}
+.nav3button{
+    position: absolute;
+    top: 1790px;
+    margin-left: 100px;
+    /* color: black; */
+    font-weight: bold;
+    width: 155px;
+    height: 30px;
+    color: white;
+    background-color: transparent;
+    /* background-color: rgb(8, 8, 60); */
+    /* border-radius: 20px; */
+    border: 1px solid white;
+    cursor: pointer;
+}
+  .nav4{
+    width: 100%;
+    height: 50px;
+    color: white;
+    background-color: black;
+  }
+ol{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+/*--------------------------------------------*/
+*{
+    margin: 0;
+    padding: 0;
+}
+.fnav1{
+    width: 100%;
+    height: 700px;
+    background: url(https://wallpaperaccess.com/full/2867603.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.fh3{
+    font-size: 80px;
+    /* display: flex; */
+    /* align-content: center; */
+    /* justify-content: center; */
+    padding-left: 400px;
+    color: black;
+    
+}
+
