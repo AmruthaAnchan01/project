@@ -1,0 +1,394 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-style: oblique;
+
+}
+
+.mainnav {
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    color: rgba(255, 255, 255, 0.608);
+    font-size: 13px;
+    /* color: black; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: transparent;
+    position: absolute;
+}
+
+a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.608);
+    /* color: black; */
+}
+
+.nav {
+    width: 100%;
+    height: 700px;
+    background: url(https://cdn.wallpapersafari.com/40/92/HvIEnr.png);
+    /* background: url(https://i.pinimg.com/564x/e0/62/8f/e0628fd335e58665b741508c47bceadc.jpg); */
+    background-position: center;
+    /* background: url(img6.png); */
+    background-size: cover;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 100px;
+    align-items: center;
+}
+
+.det {
+    padding-top: 50px;
+    padding-left: 50px;
+    line-height: 50px;
+    color: white;
+    /* color: black; */
+}
+
+.det h1 {
+    font-size: 70px;
+    list-style: none;
+}
+
+.det p {
+    font-size: 25px;
+}
+
+.intropic img {
+    width: 300px;
+    height: 300px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    border-radius: 200px;
+}
+
+/*------------------*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* .abtmain {
+    width: 100%;
+    height: 700px;
+    background: url(https://images.unsplash.com/photo-1616910137498-6df8ba3be624?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MjB8fHxlbnwwfHx8fHw%3D);
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+.border{
+    width: 800px;
+    height: 400px;
+    padding-left: 500px;
+    background-color: aqua;
+    border: 1px solid white;
+} */
+form {
+    width: 1000px;
+    height: 600px;
+    border-radius: 15px;
+    background-color: white;
+}
+
+
+/*-----------------------------*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.abtnav {
+    width: 0%;
+    height: 50px;
+    background: transparent;
+    position: absolute;
+    padding-left: 50px;
+    font-size: 13px;
+    padding-top: 10px;
+    display: flex;
+    gap: 300px;
+    color: rgba(255, 255, 255, 0.608);
+
+}
+
+/* .abtnav h1 {
+    color: brown;
+} */
+
+.abtmain {
+    width: 100%;
+    height: 100vh;
+    /* background: url("https://images.unsplash.com/photo-1616910137498-6df8ba3be624?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MjB8fHxlbnwwfHx8fHw%3D"); */
+    display: flex;
+    background: url(https://cdn.wallpapersafari.com/40/92/HvIEnr.png);
+    align-items: center;
+    justify-content: center;
+    /* background: url(https://i.pinimg.com/564x/21/61/8e/21618e399ac27c80aac237c8e2e5021d.jpg); */
+    background-position: center;
+    /* position: absolute; */
+}
+.detail{
+    display: flex;
+    flex-direction: column;
+}
+.detail p{
+    padding-left: 20px;
+    font-size: 20px;
+    line-height: 35px;
+}
+form {
+    width: 1000px;
+    height: 500px;
+    color: white;
+    border-radius: 15px;
+    /* padding-top: 30px; */
+    border: 1px solid white;
+    /* background-color: black; */
+    background: url(https://i.pinimg.com/564x/8e/3a/a5/8e3aa54fcf24caf58d2b2e98904a23f8.jpg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    /* padding-right: 600px; */
+}
+
+.form1 {
+    padding-top: 0px;
+    width: 900px;
+    height: 400px;
+}
+
+.form1 img {
+    width: 400px;
+    height: 500px;
+    /* background-color:aqua; */
+    padding-left: 0px;
+    border-radius: 20px;
+}
+
+.form1 {
+    display: flex;
+    /* justify-content: center; */
+}
+
+.form1 h1 {
+    padding-left: 50px;
+    font-size: 80px;
+}
+
+/* .abtbtn{
+   background: transparent;
+   position: absolute;
+   color: white;
+} */
+
+/*--------------------*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.cntnav {
+    width: 0%;
+    height: 50px;
+    background: transparent;
+    position: absolute;
+    padding-left: 50px;
+    font-size: 13px;
+    padding-top: 10px;
+    display: flex;
+    gap: 300px;
+    color: rgba(255, 255, 255, 0.608);
+
+}
+
+.cntmain {
+    width: 100%;
+    height: 100vh;
+    /* background: url(https://i.pinimg.com/564x/92/23/ea/9223eae307f06aaa759c9271c0a1b312.jpg); */
+    background-position: center;
+    background: url(https://cdn.wallpapersafari.com/40/92/HvIEnr.png);
+    /* background: url(https://i.pinimg.com/564x/62/3e/48/623e48fa7b7bebb73631d10c5c8e8484.jpg); */
+
+    background-size: cover;
+    color: white;
+    font-style: oblique;
+    /* color: black; */
+
+}
+
+.bi {
+    display: flex;
+    justify-content: center;
+    padding-left: 20px;
+}
+
+.cntmain h1 {
+    padding-top: 90px;
+    padding-left: 150px;
+    font-size: 70px;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    padding-top: 90px;
+    gap: 40px;
+
+}
+
+.box1 {
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    border: 2px solid black;
+    box-shadow: 15px 15px 8px 1px black;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    font-size: 30px;
+    /* background: url(https://i.pinimg.com/736x/3f/ee/ea/3feeeab60c0da39592f06ac04b83e373.jpg); */
+    background-size: cover;
+    color: black;
+    background: url(https://cdn.wallpapersafari.com/40/92/HvIEnr.png);
+    font-style: oblique;
+    background-position: center;
+}
+
+.box2 {
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    border: 2px solid black;
+    box-shadow: 15px 15px 8px 1px black;
+    display: flex;
+    line-height: 60px;
+    justify-content: center;
+    padding-top: 40px;
+    font-size: 40px;
+    /* background: url(https://i.pinimg.com/564x/c5/f4/6e/c5f46e1f504449895609a4a0614bc395.jpg); */
+    background-size: cover;
+    color: black;
+    background: url(https://cdn.wallpapersafari.com/40/92/HvIEnr.png);
+    
+    font-style: oblique;
+    background-position: center;
+}
+
+.box3 {
+    width: 350px;
+    height: 300px;
+    border-radius: 20px;
+    border: 2px solid black;
+    box-shadow: 15px 15px 8px 1px black;
+    display: flex;
+    line-height: 60px;
+    justify-content: center;
+    padding-top: 40px;
+    font-size: 21px;
+    /* background: url(https://i.pinimg.com/564x/02/83/3c/02833cf46e5ee5039a7fc1455d693212.jpg); */
+    background-size: cover;
+    /* background: url(https://i.pinimg.com/736x/e3/02/5e/e3025eea400f922f9954a3c5b3c87990.jpg); */
+    color: black;
+    background: url(https://cdn.wallpapersafari.com/40/92/HvIEnr.png);
+
+    font-style: oblique;
+    background-position: center;
+    
+}
+/*---------------*/
+*{
+    margin: 0;
+    padding: 0;
+}
+.skillnav {
+    width: 0%;
+    height: 50px;
+    background: transparent;
+    position: absolute;
+    padding-left: 50px;
+    font-size: 13px;
+    padding-top: 10px;
+    display: flex;
+    gap: 300px;
+    color: rgba(255, 255, 255, 0.608);
+/* color: aqua; */
+}
+.skillmain{
+    width: 100%;
+    height: 700px;
+    /* background: url(https://i.pinimg.com/564x/82/44/0f/82440fea24d80565a4ec4e7bd9686b02.jpg); */
+    /* background: url(https://i.pinimg.com/564x/62/3e/48/623e48fa7b7bebb73631d10c5c8e8484.jpg); */
+    background: url(https://cdn.wallpapersafari.com/40/92/HvIEnr.png);
+
+    background-size: cover;
+    background-position: center;
+}
+.skmain1{
+    display: flex;
+    justify-content: center;
+    padding-top: 90px;
+    gap: 40px;
+    /* background-color: aqua; */
+}
+.skbox1{
+    width: 400px;
+    height: 500px;
+    border-radius: 20px;
+    border: 2px solid black;
+    box-shadow: 15px 15px 8px 1px black;
+    /* display: flex; */
+    /* justify-content: center; */
+    padding-top: 30px;
+    font-size: 25px;
+    padding-left: 30px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.333);
+    line-height: 50px;
+}
+.skmain1 h1{
+    font-size: 30px;
+}
+.skbox2{
+    width: 400px;
+    height: 500px;
+    border-radius: 20px;
+    border: 2px solid black;
+    box-shadow: 15px 15px 8px 1px black;
+    /* display: flex;
+    justify-content: center; */
+    padding-top: 30px;
+    padding-left: 30px;
+    line-height: 50px;
+    color: white;
+    font-size: 25px;
+    background-color: rgba(0, 0, 0, 0.333);
+    font-size: 25px;
+}
+.skbox3{
+    width: 300px;
+    height: 500px;
+    border-radius: 20px;
+    border: 2px solid black;
+    box-shadow: 15px 15px 8px 1px black;
+    /* display: flex;
+    justify-content: center; */
+    padding-top: 30px;
+    font-size: 25px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.333);
+
+    line-height: 50px;
+    padding-left: 30px;
+
+}
+.skbox3 li{
+    list-style: none;
+}
