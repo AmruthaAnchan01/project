@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>snapchat</title>
+    <link rel="stylesheet" href="snp.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon"
+        href="data:image/png;base64,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"
+        type="image/x-icon">
+</head>
+
+<body>
+    <div class="nav">
+        <div class="icon">
+<img src="" alt="">
+        </div>
+        <div class="btn1">
+            <button class="btn"><i class="fa-solid fa-magnifying-glass" style="color: #001c40;"></i> <input type="text"
+                    placeholder="search"></button>
+        </div>
+        <ul>
+            <li><i class="fa-solid fa-copy"></i>stories</li>
+            <li><i class="fa-solid fa-play"></i>spotlight</li>
+            <li><i class="fa-regular fa-message fa-flip-horizontal"></i>chat</li>
+            <li><i class="fa-solid fa-wand-magic-sparkles"></i>Lenses</li>
+            <li><i class="fa-solid fa-location-dot"></i>Map</li>
+            <div class="dot">
+                <i class="fa-solid fa-braille"></i>
+            </div>
+            <div class="btn2">
+                <button>SnapchatAds</button>
+                <button>Download</button>
+            </div>
+        </ul>
+
+    </div>
+    <div id="main">
+        <div class="info">
+            <h1>snapchat is <br> now on the <br> web!</h1>
+            <h2>Chat, Snap, and video call your <br>friends from wherever you are. <br>
+                NEWMessage My AI, your personal <br> chatbot sidekick!</h2>
+            <button><i class="fa-solid fa-tv" style="color: #ffffff;"></i> login in to chat</button>
+        </div>
+        <img class="img" src="https://static.snapchat.com/images/snapchatdotcom/myai-asset.png" alt="">
+    </div>
+    <!--------------------------------------------------->
+    <div class="point">
+        <ul>
+            <li>Company</li>
+            <li> Snap Inc.</li>
+            <li> Careers</li>
+            <li> News</li>
+            <div class="box">
+                <label>Language</label>
+                <select>
+                    <option>
+                        Hindi
+                    </option>
+                    <option>
+                        Kannada
+                    </option>
+                    <option>
+                        Tamil
+                    </option>
+                </select>
+            </div>
+        </ul>
+        <ul>
+            <li>Community</li>
+            <li>Support</li>
+            <li>Community Guidelines</li>
+            <li>Safety Center</li>
+        </ul>
+        <ul>
+            <li>Advertising</li>
+            <li>Buy Ads</li>
+            <li>Advertising Policies</li>
+            <li>Political ads Library</li>
+            <li>Brand Guidelines</li>
+            <li>Promotions Rules</li>
+        </ul>
+    </div>
+    <!----------------------------------------------->
+    <div class="policy">
+        <h1>Privacy policy</h1>
+        <h1>Term of service</h1>
+    </div>
+</body>
+
+</html>
